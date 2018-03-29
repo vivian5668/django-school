@@ -1,0 +1,15 @@
+{% extends 'schooltool/base.html' %}
+
+{% block content %}
+
+<h3>Index</h3>
+<p>Welcome to the School Tool</p>
+<hr />
+<h3>List of Courses:</h3>
+{% for course in courses  %}
+  <p>Name: {{ course.name }}</p>
+  <p>{{ course.description }}</p>
+  <p>Units: {{ course.units  }}</p>
+  <hr />
+{% endfor %}
+{% endblock %}

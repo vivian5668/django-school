@@ -1,0 +1,9 @@
+body {
+  background: rebeccapurple;
+}
+
+.container {
+  background-color: white;
+  margin: 1em;
+  padding: 1em;
+}
